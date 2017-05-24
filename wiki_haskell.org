@@ -1,0 +1,18 @@
+#+TITLE: Haskell Wiki
+#+BEGIN_SRC haskell
+
+  -- Haskell uses non-strict evaluation
+  ---- In non-strict evaluation arguments to a function are not evaluated unless they are actually used in the evaluation of the function body.
+
+  ---- Under church encoding, lazy evaluation of operators maps to non-strict evaluation of functions; for this reason, non-strict evaluation is often referred to as "lazy". Boolean expressions in many languages use aform of non-strict evaluation called short-circuit evaluation, where evaluation returns as soon as it can be determined that an unambiguous Boolean will result for example.
+
+  -- strong static typing is another feature of Haskell.
+
+  --latest standard - 2010
+
+  -- Haskell features a type system, type inference - lazy evaluation.
+
+  -- Type classes first appeared in the haskell programming language.
+
+  -- It's main implementation is the Glasgow Haskell Compiler
+#+END_SRC
