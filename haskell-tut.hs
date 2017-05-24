@@ -1,19 +1,4 @@
-#+TITLE: Haskell Programming Practice
-
-#+BEGIN_SRC haskell
-  -- Haskell is a functional Programming Language
-  -- Everything is immutable so once a value is set it is set forever.
-  -- Functions can be passed as a parameter to other functions.
-  -- Recursion is used often.
-  -- Haskell has no for, while, or technically variables, but it does have constants
-  -- Haskell is lazy in that it doesn't execute more then is needed and instead just check for errors.
-  --
-
-  -- Type ghci to open it up in your terminal
-  -- Load script with :l haskelltut
-  -- :quit exits the GHCi
-
-  import Data.List
+import Data.List
 import System.IO
 
 -- Int -2^63 => 2^63
@@ -84,7 +69,3 @@ zeroToTen = [0..10]
 evenList = [2,4..20]
 letterList = ['A', 'C'..'Z']
 infinList = [1,2..]
-
--- Stopped @19:15
-
-#+END_SRC

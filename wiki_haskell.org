@@ -15,4 +15,7 @@
   -- Type classes first appeared in the haskell programming language.
 
   -- It's main implementation is the Glasgow Haskell Compiler
+
+  -- Haskell is based on semantics
+
 #+END_SRC
