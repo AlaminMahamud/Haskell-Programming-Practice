@@ -1,0 +1,20 @@
+#+TITLE: Haskell Programming Practice
+
+#+BEGIN_SRC haskell
+  -- Haskell is a functional Programming Language
+  -- Everything is immutable so once a value is set it is set forever.
+  -- Functions can be passed as a parameter to other functions.
+  -- Recursion is used often.
+  -- Haskell has no for, while, or technically variables, but it does have constants
+  -- Haskell is lazy in that it doesn't execute more then is needed and instead just check for errors.
+  --
+
+  -- Type ghci to open it up in your terminal
+  -- Load script with :l haskelltut
+  -- :quit exits the GHCi
+
+  -- Haskell uses non-strict evaluation
+  ---- In non-strict evaluation arguments to a function are not evaluated unless they are actually used in the evaluation of the function body.
+
+  ---- Under church encoding, lazy evaluation of operators maps to non-strict evaluation of functions; for this reason, non-strict evaluation is often referred to as "lazy". Boolean expressions in many languages use aform of non-strict evaluation called short-circuit evaluation, where evaluation returns as soon as it can be determined that an unambiguous Boolean will result for example.
+#+END_SRC
